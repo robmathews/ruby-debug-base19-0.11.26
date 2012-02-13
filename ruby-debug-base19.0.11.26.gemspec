@@ -17,4 +17,5 @@ Gem::Specification.new do |s|
 #  s.executables       = %w( #{name} )
   s.description       = "Do not use"
   s.extensions << "ext/ruby_debug/extconf.rb"
-end
+  s.required_ruby_version = '>= 1.9.3'
+ end
